@@ -16,6 +16,8 @@ module.exports = {
       },
       screens: {
         "2xl": "1320px",
+        "iphone-se": "320px", // iPhone SE
+        "iphone-xr": "414px", // iPhone XR, XS Max, 11, 11 Pro Max
       },
     },
   },

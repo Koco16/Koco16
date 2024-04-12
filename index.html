@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="./dist/output.css" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <script>
       if (localStorage.theme === "dark" || (!("theme" in localStorage) && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
         document.documentElement.classList.add("dark");
@@ -73,7 +74,7 @@
     <!-- Header End -->
     <!-- Hero Section Start -->
     <section id="home" class="pt-36 dark:bg-dark">
-      <div class="container overflow-x-hidden">
+      <div class="container">
         <div class="flex flex-wrap items-center justify-between">
           <div class="self-center w-full px-4 lg:w-1/2">
             <h1 class="text-base font-semibold text-primary md:text-xl">
@@ -90,7 +91,7 @@
               >Contact me
             </a>
           </div>
-          <div class="relative w-full px-4 mt-10 lg:self-end lg:w-1/2 lg:right-0 lg:mt-0">
+          <div class="relative w-full px-4 mt-10 lg:self-end lg:w-1/2 lg:right-0 lg:mt-0" data-aos="fade-up-left" data-aos-duration="800" data-aos-delay="300">
             <span class="absolute z-0 -translate-x-1/2 -bottom-0 left-1/2 md:scale-125 lg:w-full">
               <svg weight="90%" height="550" viewBox="-5 -15 215 200" xmlns="http://www.w3.org/2000/svg">
                 <path
@@ -585,7 +586,7 @@
     </a>
     <!-- Back to Top End -->
     <script src="dist/script.js"></script>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       AOS.init();
     </script>
